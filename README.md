@@ -1,3 +1,8 @@
+<div align='center'>
+  <img src='./cookie.png' alt='logo' width='100'>
+</div>
+<hr>
+
 # Storybook Addon Cookie Manager
 Simplify the management of cookies in your Storybook stories
 

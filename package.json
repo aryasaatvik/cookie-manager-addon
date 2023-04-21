@@ -1,5 +1,5 @@
 {
-  "name": "cookie-manager-addon",
+  "name": "storybook-addon-cookie-manager",
   "version": "0.1.0",
   "description": "Simplify the management of cookies in your Storybook stories",
   "keywords": [

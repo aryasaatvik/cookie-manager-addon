@@ -13,13 +13,13 @@ Simplify the management of cookies in your Storybook stories
 with npm:
 
 ```sh
-npm install --save-dev @storybook/addon-cookie-manager
+npm install --save-dev @aryasaatvik/storybook-addon-cookie-manager
 ```
 
 with yarn:
 
 ```sh
-yarn add --dev @storybook/addon-cookie-manager
+yarn add --dev @aryasaatvik/storybook-addon-cookie-manager
 ```
 
 ### Register the addon
@@ -28,7 +28,7 @@ Then, add the following to your `.storybook/main.js`:
 
 ```js
 module.exports = {
-  addons: ['@storybook/addon-cookie-manager'],
+  addons: ['@aryasaatvik/storybook-addon-cookie-manager'],
 };
 ```
 

@@ -11,7 +11,7 @@ export const withGlobals = (
   context: StoryContext<Renderer>
 ) => {
   const [globals] = useGlobals();
-  const myAddon = globals[PARAM_KEY];
+  const cookie = globals[PARAM_KEY];
   // Is the addon being used in the docs panel
   const isInDocs = context.viewMode === "docs";
   const { theme } = context.globals;
@@ -23,16 +23,17 @@ export const withGlobals = (
       ? `#anchor--${context.id} .sb-story`
       : "#storybook-root";
 
-    displayToolState(selector, {
-      myAddon,
-      isInDocs,
-      theme,
-    });
-  }, [myAddon, theme]);
+    // displayToolState(selector, {
+    //   cookie,
+    //   isInDocs,
+    //   theme,
+    // });
+  }, [cookie, theme]);
 
   return StoryFn();
 };
 
+/*
 function displayToolState(selector: string, state: any) {
   const rootElements = document.querySelectorAll(selector);
 
@@ -59,3 +60,4 @@ ${JSON.stringify(state, null, 2)}
 `;
   });
 }
+*/

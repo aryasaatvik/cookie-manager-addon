@@ -1,5 +1,5 @@
 {
-  "name": "cookie-manager-addon",
+  "name": "storybook-addon-cookie-manager",
   "version": "0.1.0",
   "description": "Simplify the management of cookies in your Storybook stories",
   "keywords": [
@@ -104,6 +104,6 @@
     "supportedFrameworks": [
       "react", "vue", "angular", "web-components", "ember", "html", "svelte", "preact", "react-native"
     ],
-    "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
+    "icon": "https://raw.githubusercontent.com/aryasaatvik/cookie-manager-addon/f1736b72425ebab50487fe82eb4de097d3e4a34e/cookie.png"
   }
 }
